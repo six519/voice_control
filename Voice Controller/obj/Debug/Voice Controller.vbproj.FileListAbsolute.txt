@@ -1,0 +1,12 @@
+C:\Users\ferdi\source\repos\Voice Controller\Voice Controller\bin\Debug\Voice Controller.exe.config
+C:\Users\ferdi\source\repos\Voice Controller\Voice Controller\bin\Debug\Voice Controller.exe
+C:\Users\ferdi\source\repos\Voice Controller\Voice Controller\bin\Debug\Voice Controller.pdb
+C:\Users\ferdi\source\repos\Voice Controller\Voice Controller\bin\Debug\Voice Controller.xml
+C:\Users\ferdi\source\repos\Voice Controller\Voice Controller\obj\Debug\Voice Controller.vbprojAssemblyReference.cache
+C:\Users\ferdi\source\repos\Voice Controller\Voice Controller\obj\Debug\Voice_Controller.Form1.resources
+C:\Users\ferdi\source\repos\Voice Controller\Voice Controller\obj\Debug\Voice_Controller.Resources.resources
+C:\Users\ferdi\source\repos\Voice Controller\Voice Controller\obj\Debug\Voice Controller.vbproj.GenerateResource.cache
+C:\Users\ferdi\source\repos\Voice Controller\Voice Controller\obj\Debug\Voice Controller.vbproj.CoreCompileInputs.cache
+C:\Users\ferdi\source\repos\Voice Controller\Voice Controller\obj\Debug\Voice Controller.exe
+C:\Users\ferdi\source\repos\Voice Controller\Voice Controller\obj\Debug\Voice Controller.xml
+C:\Users\ferdi\source\repos\Voice Controller\Voice Controller\obj\Debug\Voice Controller.pdb
