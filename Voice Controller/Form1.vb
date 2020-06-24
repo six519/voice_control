@@ -37,5 +37,9 @@ Public Class Form1
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
         Me.Hide()
         Timer1.Enabled = False
+        NotifyIcon1.BalloonTipIcon = ToolTipIcon.Info
+        NotifyIcon1.BalloonTipText = "You can close the application by right clicking the icon on your system tray then select exit."
+        NotifyIcon1.BalloonTipTitle = "Voice Controller"
+        NotifyIcon1.ShowBalloonTip(10000)
     End Sub
 End Class
