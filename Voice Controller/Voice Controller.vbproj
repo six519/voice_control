@@ -126,6 +126,7 @@
   <ItemGroup>
     <Content Include="4043233-anime-away-face-no-nobody-spirited_113254.ico" />
     <Content Include="anime-boy-with-tie_icon-icons.com_68057.ico" />
+    <None Include="Resources\Untitled-1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

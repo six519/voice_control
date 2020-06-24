@@ -30,8 +30,12 @@ Public Class Form1
         End Select
 
     End Sub
+    Private Sub ToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles ToolStripMenuItem1.Click
+        Me.Close()
+    End Sub
 
-    Private Sub Form1_Shown(sender As Object, e As EventArgs) Handles Me.Shown
+    Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
         Me.Hide()
+        Timer1.Enabled = False
     End Sub
 End Class
