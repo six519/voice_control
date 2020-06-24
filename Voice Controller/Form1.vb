@@ -3,7 +3,7 @@ Public Class Form1
     Dim WithEvents SRE As New Recognition.SpeechRecognitionEngine
     Dim RDocument As New Recognition.SrgsGrammar.SrgsDocument
     Dim RRule As New Recognition.SrgsGrammar.SrgsRule("words")
-    Dim RWords As New Recognition.SrgsGrammar.SrgsOneOf("left", "right")
+    Dim RWords As New Recognition.SrgsGrammar.SrgsOneOf("left", "right", "close", "enter")
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         SRE.SetInputToDefaultAudioDevice()
         RRule.Add(RWords)
@@ -23,6 +23,10 @@ Public Class Form1
                 SendKeys.Send("{LEFT}")
             Case "right"
                 SendKeys.Send("{RIGHT}")
+            Case "close"
+                SendKeys.Send("%{F4}")
+            Case "enter"
+                SendKeys.Send("~")
         End Select
 
     End Sub
